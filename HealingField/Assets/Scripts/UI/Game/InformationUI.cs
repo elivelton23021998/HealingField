@@ -27,6 +27,7 @@ public class InformationUI : MonoBehaviour
     //não me lembro
     public GameObject panelInfoGroup;
     public Button btnRelease;
+    [HideInInspector]public float animeRef; //anti-bug
     
     [Header("Groups")]
     [SerializeField] private GameObject grpCommomInfo;
