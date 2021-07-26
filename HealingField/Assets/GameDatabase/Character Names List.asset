@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93fd1ca706e3cf444b64c1028c6ef527, type: 3}
+  m_Name: Character Names List
+  m_EditorClassIdentifier: 
+  _names:
+  - Ayo
+  - Fayola
+  - Eno
+  - Amara
+  - Aran
+  - Danso
+  - Kwame
+  - Abayomi
+  - Adenike
+  - Ebunoluwa
+  - Dolapo
+  - Monifa
+  - Akin
+  - Kayin
+  - Isaach
+  - Leke
+  - Adelowo
+  - Ayodele
+  - Bandele
+  - Chioh
+  - Danladi
+  - Dibia
+  - Ekundayo
+  - Imarogbe
+  - Dayo
+  - Ebiere
+  - Fayola
+  - Gimbya
+  - Iziegbe
+  - Jumoke
+  - Kehinde
+  - Keyah
+  - Kinah
+  - Kiziah
+  - Femi
+  - Lyabo
+  - Monifa
+  - Monifa
+  - Olaniyi
+  - Taiwo
+  - Daren
+  - Abiade
+  - Ade
+  - Chinua
+  - Eze

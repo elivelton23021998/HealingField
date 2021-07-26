@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6293158313392335384
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6293158313392335382}
+  - component: {fileID: 6293158313392335383}
+  - component: {fileID: 6293158313392335380}
+  - component: {fileID: 6293158313392335381}
+  - component: {fileID: 2599561826450086670}
+  - component: {fileID: 4515636758787184672}
+  m_Layer: 0
+  m_Name: DataAndStuff
+  m_TagString: Manager
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6293158313392335382
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6293158313392335384}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -765, y: 1152, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6293158313392335383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6293158313392335384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dce252355cd632d49b0d5c7e2f3abddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6293158313392335380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6293158313392335384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08be83af8dfda844db6f70f623219a78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  kitPrefab: {fileID: 6102168045216183523, guid: d69800d36c0a82a40a0e9d8b3af2581f,
+    type: 3}
+  fastKitTotal: 15
+  useTimeFastKit: 25
+  accurateKitTotal: 10
+  useTimeAccurateKit: 35
+--- !u!114 &6293158313392335381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6293158313392335384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f47c52e4173f67429c3ddaab286c903, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  medicins:
+  - medicinName: Commom
+    totalMedicin: 5
+    currentMedicinValue: 0
+    useTimeMedicin: 20
+    useTimeWrongMedicin: 20
+  - medicinName: PlasmodiumA
+    totalMedicin: 5
+    currentMedicinValue: 0
+    useTimeMedicin: 15
+    useTimeWrongMedicin: 25
+  - medicinName: PlasmodiumB
+    totalMedicin: 5
+    currentMedicinValue: 0
+    useTimeMedicin: 15
+    useTimeWrongMedicin: 25
+--- !u!114 &2599561826450086670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6293158313392335384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b23fb75cadb645d4fbc59b1132df6dce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rounds: 7
+  _npcPerRound: 03000000040000000500000006000000070000000800000009000000
+  gainForEachRecovered: 20
+  gainForEachRecoveredBeyondObjective: 50
+  gainToReachObjective: 50
+  gainToReachTarget: 10
+  gainToReachWin: 100
+  inicialChairsAvailable: 2
+  inicialBedsAvailable: 2
+  _totalChairs: 12
+  _totalBeds: 12
+--- !u!114 &4515636758787184672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6293158313392335384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ea8a289edbfc6e46abe7919229be2c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxEquip: 5
+  _timeReduct: 1
+  _equipLv1_ReductTime: 1
+  _equipLv2_ReductTimekit: 2
+  _equipLv3_ReductTimeMedicin: 2

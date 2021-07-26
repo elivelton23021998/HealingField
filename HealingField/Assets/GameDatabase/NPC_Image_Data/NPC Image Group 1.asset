@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461d1fa547b24ce4da9eb5e2cbe88c97, type: 3}
+  m_Name: NPC Image Group 1
+  m_EditorClassIdentifier: 
+  npcImage:
+  - {fileID: 21300000, guid: 5c52daa4c4a690140a9fafe723e17900, type: 3}
+  - {fileID: 21300000, guid: bef054a843ffa5640b47f91142b225dd, type: 3}
+  - {fileID: 21300000, guid: 0bff8feb90ed30243a579f027884e678, type: 3}
+  - {fileID: 21300000, guid: 7cbdc96ac9bd9bb428d15fe078a5e70b, type: 3}
+  - {fileID: 21300000, guid: e44d28cc0a06abe45b1f5f60b608a3da, type: 3}
+  - {fileID: 21300000, guid: fcc1bd1a8d079034f86cc3cf2bd3299e, type: 3}
+  - {fileID: 21300000, guid: 39357f877c6b90e419d29fdbca65c1f6, type: 3}
+  - {fileID: 21300000, guid: e426685a992a95949b317e4300b14984, type: 3}
+  - {fileID: 21300000, guid: f1cab8c4dbf971945887e7bf54d6d1fb, type: 3}
+  - {fileID: 21300000, guid: 774bde598d158c448b44e3cbe61dba4f, type: 3}
