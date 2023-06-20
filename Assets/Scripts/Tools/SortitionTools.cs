@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-//Copyright 2020, Caio Santos, Todos os direitos reservados.
-//Copyright 2020, Caio Santos, All rights reserved.
 
 public class SortitionTools : MonoBehaviour
 {

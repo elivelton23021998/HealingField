@@ -2,16 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-//Copyright 2020, Caio Santos, Todos os direitos reservados.
-//Copyright 2020, Caio Santos, All rights reserved.
-
 public class SimpleSlideShow : MonoBehaviour
 {
     private float screenWidth;
     private float screenHeight;
     private List<GameObject> elements = new List<GameObject>();
 
-    private bool smoothMoveState = false;
+    [HideInInspector] public bool smoothMoveState = false;
 
     public void Initialize(float screenWidth, float screenHeight, List<GameObject> elements)
     {
@@ -49,19 +46,19 @@ public class SimpleSlideShow : MonoBehaviour
                 {
                     newPosition = elements[i].transform.position - (new Vector3(screenWidth, 0f, 0f) * xDirection.x);
 
-                    StartCoroutine(SmoothMove(i, elements[i].transform.position, newPosition, .5f));
+                    StartCoroutine(SmoothMove(i, elements[i].transform.position, newPosition, .5f,true));
                 }
                 else if (xDirection.x < 0 && elements[0].GetComponent<RectTransform>().anchoredPosition.x != 0)
                 {
                     newPosition = elements[(elements.Count - 1) - i].transform.position - (new Vector3(screenWidth, 0f, 0f) * xDirection.x);
 
-                    StartCoroutine(SmoothMove((elements.Count - 1) - i, elements[(elements.Count - 1) - i].transform.position, newPosition, .5f));
+                    StartCoroutine(SmoothMove((elements.Count - 1) - i, elements[(elements.Count - 1) - i].transform.position, newPosition, .5f,false));
                 }
             }
         }
     }
     
-    private IEnumerator SmoothMove(int elementIndex, Vector3 startPos, Vector3 endPos, float seconds)
+    private IEnumerator SmoothMove(int elementIndex, Vector3 startPos, Vector3 endPos, float seconds, bool up)
     {
         smoothMoveState = true;
         float t = 0f;

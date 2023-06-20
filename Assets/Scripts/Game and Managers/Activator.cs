@@ -4,13 +4,17 @@ using UnityEngine;
 
 public class Activator : MonoBehaviour
 {
+    [SerializeField] bool noDisable;
     public void Ativar()
     {
         gameObject.SetActive(true);
     }
     public void Desativar()
     {
-        gameObject.SetActive(false);
+        if (!noDisable)
+        {
+            gameObject.SetActive(false);
+        }
     }
 
     public void OffAnimation()
