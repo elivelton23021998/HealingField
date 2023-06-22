@@ -7,7 +7,7 @@
 
 Serious Game 2D com foco em divulgar a rotina dos médicos envolvidos no programa Médicos Sem Fronteiras, os quais batalham muito para levarem saúde para todo mundo. Fazendo isto com gerenciamento de recursos.
 
-![Imagem do Jogo](Assets\Sprites\Capa_HealingField.png)
+![Imagem do Jogo](Assets/Sprites/Capa_HealingField.png)
 
 mais detalhes e download do projeto executável completo em:
 
